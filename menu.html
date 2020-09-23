@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+  <!-- MENU -->
+  <div class="container-full">
+    <header class="header header__menu">
+      <nav class="nav">
+        <ul class="nav__items ">
+          <li><a href="menu.html" class="nav__link">Меню</a></li>
+          <li><a href="sales.html" class="nav__link">Акции</a></li>
+          <li><a href="contacts.html" class="nav__link">О нас</a></li>
+          <a href="index.html"> <img src="images/logo.png" alt="" class="nav__logo"></a>
+          <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+        </ul>
+        <img src="images/logo.png" alt="LOGO" class="mobile__logo-head">
+        <div class="enter__trash">
+          <a href="enter.html" class="enter">
+            <img src="images/akk__mobile.svg" alt="ENTER" class="enter__logo-mobile">
+            <img src="images/enter.png" alt="ENTER" class="enter__logo">
+            <p class="enter__nav">Войти</p>
+          </a>
+          <a href="trash.html"> <img src="images/trash.svg" alt="Корзина" class="trash__nav"></a>
+        </div>
+      </nav>
+      <div class="nav-mobile">
+        <label for="toggle" class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu_mobile">
+          <div class="ul-mobile">
+            <li><a href="index.html " class="nav__link-mobile">Главная</a></li>
+            <li><a href="menu.html" class="nav__link-mobile">Меню</a></li>
+            <li><a href="sales.html" class="nav__link-mobile">Акции</a></li>
+            <li><a href="#" class="nav__link-mobile">О нас</a></li>
+            <li><a href="contacts.html" class="nav__link-mobile">Контакты</a></li>
+            <img class="logo__mobile-link" src="images/logo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- SECTION-MENU -->
+    <div class="container-full">
+      <div class="menu__full">
+        <div class="menu">
+          <ul class="menu__items  wow fadeInUpBig">
+            <div class="menu__text">
+              <a href="#" class="full-menu">Меню</a>
+            </div>
+            <li><a href="#" class="menu__link">Новинки </a></li>
+            <li><a href="#" class="menu__link">Популярное </a></li>
+            <li><a href="#" class="menu__link">Популярное</a></li>
+            <li><a href="#" class="menu__link">Акции </a></li>
+            <li><a href="#" class="menu__link">Стейки </a></li>
+            <li><a href="#" class="menu__link">Гарниры </a></li>
+            <li><a href="#" class="menu__link">Салаты</a></li>
+            <li><a href="#" class="menu__link">Напитки </a></li>
+            <li><a href="#" class="menu__link">Напитки </a></li>
+            <li><a href="#" class="menu__link">Напитки </a></li>
+          </ul>
+          <div class="dishes">
+            <div class="dish wow fadeInLeft">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus" id="minus" onclick="func()">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus" id="minus" onclick="func()">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <div class="dish">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <div class="dish wow fadeInRight">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <div class="dish wow fadeInLeft">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <div class="dish">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <div class="dish wow fadeInRight">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus" id="minus" onclick="func()">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus" id="minus" onclick="func()">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <div class="dish wow fadeInLeft">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <div class="dish">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <div class="dish wow fadeInRight">
+              <img src="images/dish.png" alt="Блюдо" class="dish__img">
+              <p class="dish__title">Форель с булгуром</p>
+              <p class="dish__text">
+                Описание продукта, особенности, плюсы и минусы.
+              </p>
+              <div class="cost__trash">
+                <p class="cost">1000 сом</p>
+                <div class="points">
+                  <a href="#" class="minus">-</a>
+                  <a href="#" class="number">1</a>
+                  <a href="#" class="plus">+</a>
+                </div>
+                <a href="trash.html" class="trash__menu">В корзину</a>
+              </div>
+            </div>
+            <a href="#" class="load">Загрузить еще</a>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container-full">
+            <div class="footer__items">
+             <a href="index.html"><img src="images/Logo-big.png" alt="" class="logo__footer"></a>
+              <div class="work__hours">
+                <p class="work__title">Режим работы</p>
+                <p class="work__hour">c 10:00 до 20:00</p>
+                <p class="work__text">Сб, Вс - выходной</p>
+              </div>
+              <div class="phone">
+                <p class="phone__title">Телефон</p>
+                <p class="phone__number">+996 (0553) 577-575
+                  <br>
+                  +996 (0553) 577-575</p>
+              </div>
+              <div class="adress">
+                <p class="adress__title">Адрес</p>
+                <p class="adress__text">г. Бишкек, Медерова, 50/2
+                </p>
+              </div>
+              <div class="social__network">
+                <a href="#"><img src="images/instagram.svg" alt="" class="social"></a>
+                <a href="#"><img src="images/facebook.svg" alt="" class="social"></a>
+                <a href="#"><img src="images/whatsapp.svg" alt="" class="social"></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
